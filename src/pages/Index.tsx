@@ -19,13 +19,7 @@ const Index = () => {
         }}
       />
 
-      <div className="relative z-10 flex flex-col items-center gap-8">
-        <header className="text-center">
-          <p className="font-mono text-[11px] uppercase tracking-[0.3em] text-[hsl(var(--hud-muted))]">
-            Game HUD · Overlay
-          </p>
-          <h1 className="mt-2 text-2xl font-semibold tracking-tight">Hotkeys Interface</h1>
-        </header>
+      <div className="relative z-10">
         <HotkeysPanel />
       </div>
     </main>
