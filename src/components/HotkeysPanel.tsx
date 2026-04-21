@@ -4,7 +4,7 @@ export const HotkeysPanel = () => {
   return (
     <div className="inline-flex w-[180px] flex-col overflow-hidden rounded-[10px] border border-[hsl(var(--hud-panel-border))] bg-[hsl(var(--hud-panel))] font-sans text-foreground shadow-[0_8px_24px_-4px_hsl(220_50%_2%/0.6)]">
       {/* Header */}
-      <div className="flex items-center gap-1.5 border-b border-[hsl(var(--hud-panel-border))] bg-[hsl(var(--hud-header))] px-2.5 py-1.5">
+      <div className="flex items-center justify-center gap-1.5 border-b border-[hsl(var(--hud-panel-border))] bg-[hsl(var(--hud-header))] px-2.5 py-1.5">
         <Keyboard className="h-3.5 w-3.5 text-foreground" strokeWidth={2} />
         <span className="text-[12px] font-semibold leading-none">Hotkeys</span>
       </div>
